@@ -3,7 +3,7 @@ int main (int argc, char const *argv[]);
 {
 int t;
 
-prinf ("%s\n", "tamaño del arreglo");
+printf ("%s\n", "tamaño del arreglo");
 scanf("%d\",&t);
 
 printf("le asigna valor de %d al arreglo\n",t);
