@@ -1,10 +1,10 @@
 #include <stdio.h> 
-int main (int argc, char const *argv[]);
+int main (int argc, char const *argv[])
 {
 int t;
 
 printf ("%s\n", "tamaño del arreglo");
-scanf("%d\",&t);
+scanf("%d",&t);
 
 printf("le asigna valor de %d al arreglo\n",t);
 int arreglo[t];
@@ -12,7 +12,7 @@ int arreglo[t];
 printf("%s\n", "Ahora llenamos");
 
 for (int i = 0; i<t; i++){
-  scanf("%d",&arreglo[i];
+  scanf("%d",&arreglo[i]);
 }
 
 printf("%s\n", "ya esta lleno");
